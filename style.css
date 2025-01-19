@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #234270;
+}
+body {
+  background-color: #fff;
+}
+
+/* >>>>>>>>>>"Topo"<<<<<<<<<< */
+header .topo {
+  position: fixed;
+  width: 100%;
+  height: 195px;
+  background-color: #234270;
+}
+header .nome {
+  text-align: center;
+}
+header .nome h1 {
+  color: red;
+  font-size: 58px;
+}
+header .nome h2 {
+  color: red;
+  font-size: 38px;
+}
+header .menu {
+  position: relative;
+  left: 20px;
+}
+
+header .container-links {
+  position: relative;
+  top: 5px;
+  text-align: center;
+}
+header .container-links a {
+  color: red;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* >>>>>>>>>>"Carregador"<<<<<<<<<<*/
+main #carregador {
+  position: relative;
+  top: 350px;
+  z-index: -1;
+}
+main .carregador h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .carregador .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .carregador .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+main .imagem p {
+  text-align: center;
+  border: 1px solid #234270;
+  margin: 5px 0;
+}
+main .imagem span {
+  text-align: center;
+  color: red;
+  border: 1px solid #234270;
+}
+
+/* >>>>>>>>>>"Fone de Ouvido"<<<<<<<<<< */
+main #fone-de-ouvido {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .fone-de-ouvido h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .fone-de-ouvido .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .fone-de-ouvido .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+
+/* >>>>>>>>>>"Caixa de Som"<<<<<<<<<< */
+main #caixa-de-som {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .caixa-de-som h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .caixa-de-som .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .caixa-de-som .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+
+/* >>>>>>>>>>"Fone Bluetooth"<<<<<<<<<< */
+main #fone-bluetooth {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .fone-bluetooth h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .fone-bluetooth .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .fone-bluetooth .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+
+/* >>>>>>>>>>"Pelicula"<<<<<<<<<< */
+main #pelicula {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .pelicula h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .pelicula .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .pelicula .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+
+/* >>>>>>>>>>"Microfone"<<<<<<<<<< */
+main #microfone {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .microfone h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .microfone .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .microfone .imagem img {
+  width: 250px;
+  height: 250px;
+  margin: 100px 0;
+}
+
+/* >>>>>>>>>>"Endereço"<<<<<<<<<< */
+main #endereco {
+  position: relative;
+  top: 350px;
+  margin: 80px 0;
+  z-index: -1;
+}
+main .endereco h3 {
+  text-align: center;
+  font-size: 28px;
+}
+main .endereco .mapa iframe {
+  width: 100%;
+  margin: 25px 0;
+  opacity: 60%;
+}
+main .horario {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+main .horario h4 {
+  font-size: 38px;
+  margin: 20px 0;
+}
+main .horario p {
+  font-size: 28px;
+  margin: 20px 0;
+}
+main .horario span {
+  color: red;
+  font-size: 28px;
+}
+
+/* >>>>>>>>>>"Redes"<<<<<<<<<< */
+main .redes {
+  position: relative;
+  top: 350px;
+}
+
+/* >>>>>>>>>>"Roda Pé"<<<<<<<<<< */
+footer .roda-pe {
+  position: relative;
+  top: 350px;
+  background-color: #234270;
+}
+footer .roda-pe p {
+  color: #fff;
+  font-size: 18px;
+}
+footer .roda-pe span {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* >>>>>>>>>>""<<<<<<<<<< */
