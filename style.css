@@ -1,3 +1,8 @@
+:root {
+  --color01: #234270;
+  --color02: ;
+  --color03: ;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,39 +11,39 @@
   color: #234270;
 }
 body {
-  background-color: #fff;
+  background-color: #80808029;
 }
 
 /* >>>>>>>>>>"Topo"<<<<<<<<<< */
 header .topo {
-  position: fixed;
   width: 100%;
-  height: 195px;
-  background-color: #234270;
+  height: 200px;
+  background-image: url(./img/3_acessery.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-attachment: fixed;
 }
 header .nome {
+  position: relative;
+  top: 200px;
+  height: 70px;
   text-align: center;
 }
 header .nome h1 {
-  color: red;
+  color: #234270;
   font-size: 58px;
 }
 header .nome h2 {
-  color: red;
+  color: #234270;
   font-size: 38px;
 }
-header .menu {
-  position: relative;
-  left: 20px;
-}
-
 header .container-links {
   position: relative;
-  top: 5px;
+  top: 250px;
   text-align: center;
 }
 header .container-links a {
-  color: red;
+  color: #234270;
   padding: 10px;
   font-size: 20px;
 }
@@ -46,154 +51,183 @@ header .container-links a {
 /* >>>>>>>>>>"Carregador"<<<<<<<<<<*/
 main #carregador {
   position: relative;
-  top: 350px;
+  top: 210px;
   z-index: -1;
 }
 main .carregador h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .carregador .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .carregador .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 main .imagem p {
+  max-width: 250px;
   text-align: center;
-  border: 1px solid #234270;
+  border: 3px solid #234270;
   margin: 5px 0;
 }
 main .imagem span {
   text-align: center;
   color: red;
-  border: 1px solid #234270;
+  border: 3px solid #234270;
+  padding: 0 8px;
 }
 
 /* >>>>>>>>>>"Fone de Ouvido"<<<<<<<<<< */
 main #fone-de-ouvido {
   position: relative;
-  top: 350px;
-  margin: 80px 0;
+  top: 210px;
   z-index: -1;
 }
 main .fone-de-ouvido h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .fone-de-ouvido .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .fone-de-ouvido .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 
 /* >>>>>>>>>>"Caixa de Som"<<<<<<<<<< */
 main #caixa-de-som {
   position: relative;
-  top: 350px;
-  margin: 80px 0;
+  top: 220px;
   z-index: -1;
 }
 main .caixa-de-som h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .caixa-de-som .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .caixa-de-som .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 
 /* >>>>>>>>>>"Fone Bluetooth"<<<<<<<<<< */
 main #fone-bluetooth {
   position: relative;
-  top: 350px;
-  margin: 80px 0;
+  top: 220px;
   z-index: -1;
 }
 main .fone-bluetooth h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .fone-bluetooth .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .fone-bluetooth .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 
 /* >>>>>>>>>>"Pelicula"<<<<<<<<<< */
 main #pelicula {
   position: relative;
-  top: 350px;
-  margin: 80px 0;
+  top: 220px;
   z-index: -1;
 }
 main .pelicula h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .pelicula .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .pelicula .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 
 /* >>>>>>>>>>"Microfone"<<<<<<<<<< */
 main #microfone {
   position: relative;
-  top: 350px;
-  margin: 80px 0;
+  top: 220px;
   z-index: -1;
 }
 main .microfone h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .microfone .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: antiquewhite;
+  margin: 10px 0;
 }
 main .microfone .imagem img {
   width: 250px;
   height: 250px;
-  margin: 100px 0;
+  margin: 5px 0;
+  border: 3px solid #234270;
 }
 
 /* >>>>>>>>>>"Endereço"<<<<<<<<<< */
 main #endereco {
   position: relative;
-  top: 350px;
+  top: 250px;
   margin: 80px 0;
   z-index: -1;
 }
 main .endereco h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
+  line-height: 250px;
+  background-color: aqua;
 }
 main .endereco .mapa iframe {
   width: 100%;
@@ -228,15 +262,19 @@ main .redes {
 footer .roda-pe {
   position: relative;
   top: 350px;
+  height: 100px;
   background-color: #234270;
+  display: flex;
+  justify-content: space-around;
 }
 footer .roda-pe p {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
+  margin: 0 20px;
 }
 footer .roda-pe span {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* >>>>>>>>>>""<<<<<<<<<< */
