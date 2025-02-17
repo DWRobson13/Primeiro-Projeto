@@ -1,17 +1,17 @@
 :root {
   --color01: #234270;
-  --color02: ;
-  --color03: ;
+  --color02: #80808029;
+  --color03: #fff;
+  --color04: #ee1010;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: #234270;
 }
 body {
-  background-color: #80808029;
+  background-color: var(--color02);
 }
 
 /* >>>>>>>>>>"Topo"<<<<<<<<<< */
@@ -30,59 +30,63 @@ header .nome {
   text-align: center;
 }
 header .nome h1 {
-  color: #234270;
-  font-size: 58px;
+  color: var(--color01);
+  font-size: 68px;
 }
 header .nome h2 {
-  color: #234270;
+  color: var(--color01);
   font-size: 38px;
 }
+
 header .container-links {
   position: relative;
   top: 250px;
   text-align: center;
 }
 header .container-links a {
-  color: #234270;
+  color: var(--color01);
   padding: 10px;
   font-size: 20px;
+}
+header .container-links a:hover {
+  color: var(--color04);
+  font-size: 25px;
 }
 
 /* >>>>>>>>>>"Carregador"<<<<<<<<<<*/
 main #carregador {
   position: relative;
   top: 210px;
+  color: var(--color01);
   z-index: -1;
 }
 main .carregador h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .carregador .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .carregador .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .carregador .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 main .imagem p {
-  max-width: 250px;
+  max-width: 150px;
   text-align: center;
-  border: 3px solid #234270;
-  margin: 5px 0;
 }
 main .imagem span {
   text-align: center;
-  color: red;
-  border: 3px solid #234270;
+  color: var(--color04);
   padding: 0 8px;
 }
 
@@ -90,130 +94,141 @@ main .imagem span {
 main #fone-de-ouvido {
   position: relative;
   top: 210px;
+  color: var(--color01);
   z-index: -1;
 }
+
 main .fone-de-ouvido h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .fone-de-ouvido .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .fone-de-ouvido .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .fone-de-ouvido .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 
 /* >>>>>>>>>>"Caixa de Som"<<<<<<<<<< */
 main #caixa-de-som {
   position: relative;
   top: 220px;
+  color: var(--color01);
   z-index: -1;
 }
 main .caixa-de-som h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .caixa-de-som .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .caixa-de-som .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .caixa-de-som .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 
 /* >>>>>>>>>>"Fone Bluetooth"<<<<<<<<<< */
 main #fone-bluetooth {
   position: relative;
   top: 220px;
+  color: var(--color01);
   z-index: -1;
 }
 main .fone-bluetooth h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .fone-bluetooth .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .fone-bluetooth .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .fone-bluetooth .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 
 /* >>>>>>>>>>"Pelicula"<<<<<<<<<< */
 main #pelicula {
   position: relative;
   top: 220px;
+  color: var(--color01);
   z-index: -1;
 }
 main .pelicula h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .pelicula .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .pelicula .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .pelicula .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 
 /* >>>>>>>>>>"Microfone"<<<<<<<<<< */
 main #microfone {
   position: relative;
   top: 220px;
+  color: var(--color01);
   z-index: -1;
 }
 main .microfone h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
 }
 main .microfone .cards {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  margin: 10px 0;
+  justify-content: space-evenly;
+}
+main .microfone .imagem {
+  background-color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 0;
 }
 main .microfone .imagem img {
-  width: 250px;
-  height: 250px;
-  margin: 5px 0;
-  border: 3px solid #234270;
+  width: 150px;
+  height: 150px;
 }
 
 /* >>>>>>>>>>"Endereço"<<<<<<<<<< */
@@ -227,29 +242,65 @@ main .endereco h3 {
   text-align: center;
   font-size: 38px;
   line-height: 250px;
-  background-color: aqua;
+  color: var(--color01);
 }
 main .endereco .mapa iframe {
   width: 100%;
   margin: 25px 0;
   opacity: 60%;
 }
+/* >>>>>>>>>>"Horario"<<<<<<<<<< */
+main .container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 main .horario {
-  position: relative;
-  top: 100px;
+  width: 48%;
   text-align: center;
 }
 main .horario h4 {
-  font-size: 38px;
-  margin: 20px 0;
+  font-size: 26px;
+  margin: 10px 0;
+  color: var(--color01);
 }
 main .horario p {
-  font-size: 28px;
-  margin: 20px 0;
+  font-size: 25px;
+  margin: 10px 0;
+  color: var(--color01);
 }
-main .horario span {
-  color: red;
+main .hora span {
+  font-size: 20px;
+  text-align: center;
+  color: var(--color04);
+}
+
+/* >>>>>>>>>>"Formulario"<<<<<<<<<< */
+main .form-box {
+  width: 48%;
+}
+main .form-box h5 {
   font-size: 28px;
+  text-align: center;
+  color: var(--color01);
+  margin: 10px 0;
+}
+main .form {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--color02);
+}
+main .form label {
+  color: var(--color01);
+  font-size: larger;
+}
+main .inputBox input {
+  width: 170px;
+  margin: 5px 0;
+}
+main .form button {
+  width: 70px;
+  background-color: var(--color02);
 }
 
 /* >>>>>>>>>>"Redes"<<<<<<<<<< */
@@ -257,23 +308,28 @@ main .redes {
   position: relative;
   top: 350px;
 }
+main .reds a {
+  display: flex;
+  justify-content: right;
+}
 
 /* >>>>>>>>>>"Roda Pé"<<<<<<<<<< */
 footer .roda-pe {
   position: relative;
   top: 350px;
   height: 100px;
-  background-color: #234270;
+  background-color: var(--color01);
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 footer .roda-pe p {
-  color: #fff;
+  color: var(--color03);
   font-size: 20px;
   margin: 0 20px;
 }
 footer .roda-pe span {
-  color: #fff;
+  color: var(--color03);
   font-size: 20px;
 }
 
