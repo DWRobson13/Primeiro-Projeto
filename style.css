@@ -18,15 +18,27 @@ body {
 header .topo {
   width: 100%;
   height: 200px;
-  background-image: url(./img/3_acessery.jpg);
+  background-image: url(./img/3_acessery.jpg),
+    url(./img/en-iyi-oyuncu-kulakliklari-2000-tl-kapak-1600x900.jpg);
   background-repeat: no-repeat;
   background-size: 100% 200px;
   background-attachment: fixed;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+@keyframes example {
+  from {
+    background-image: url(./img/3_acessery.jpg);
+  }
+  to {
+    background-image: url(./img/en-iyi-oyuncu-kulakliklari-2000-tl-kapak-1600x900.jpg);
+  }
 }
 header .nome {
   position: relative;
   top: 200px;
-  height: 70px;
   text-align: center;
 }
 header .nome h1 {
@@ -40,17 +52,13 @@ header .nome h2 {
 
 header .container-links {
   position: relative;
-  top: 250px;
+  top: 220px;
   text-align: center;
 }
 header .container-links a {
   color: var(--color01);
   padding: 10px;
-  font-size: 20px;
-}
-header .container-links a:hover {
-  color: var(--color04);
-  font-size: 25px;
+  font-size: 18px;
 }
 
 /* >>>>>>>>>>"Carregador"<<<<<<<<<<*/
@@ -60,34 +68,48 @@ main #carregador {
   color: var(--color01);
   z-index: -1;
 }
+
 main .carregador h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .carregador .cards {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 main .carregador .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
-  margin: 5px 0;
 }
 main .carregador .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 main .imagem p {
-  max-width: 150px;
+  max-width: 180px;
   text-align: center;
+  margin: 5px 5px;
+  border: 1px solid var(--color01);
 }
 main .imagem span {
-  text-align: center;
+  width: 100px;
   color: var(--color04);
-  padding: 0 8px;
+  margin: 0 5px;
+  border: 1px solid var(--color01);
+  background-color: var(--color02);
+  display: flex;
+  justify-content: center;
+}
+main .imagem button {
+  width: 100px;
+  background-color: var(--color01);
+  color: var(--color03);
+  border: 1px solid var(--color01);
+  margin: 5px 5px;
 }
 
 /* >>>>>>>>>>"Fone de Ouvido"<<<<<<<<<< */
@@ -101,7 +123,7 @@ main #fone-de-ouvido {
 main .fone-de-ouvido h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .fone-de-ouvido .cards {
   width: 90%;
@@ -110,12 +132,13 @@ main .fone-de-ouvido .cards {
   justify-content: space-evenly;
 }
 main .fone-de-ouvido .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
   margin: 5px 0;
 }
 main .fone-de-ouvido .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 
@@ -129,7 +152,7 @@ main #caixa-de-som {
 main .caixa-de-som h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .caixa-de-som .cards {
   width: 90%;
@@ -138,12 +161,13 @@ main .caixa-de-som .cards {
   justify-content: space-evenly;
 }
 main .caixa-de-som .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
   margin: 5px 0;
 }
 main .caixa-de-som .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 
@@ -157,7 +181,7 @@ main #fone-bluetooth {
 main .fone-bluetooth h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .fone-bluetooth .cards {
   width: 90%;
@@ -166,12 +190,13 @@ main .fone-bluetooth .cards {
   justify-content: space-evenly;
 }
 main .fone-bluetooth .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
   margin: 5px 0;
 }
 main .fone-bluetooth .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 
@@ -185,7 +210,7 @@ main #pelicula {
 main .pelicula h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .pelicula .cards {
   width: 90%;
@@ -194,12 +219,13 @@ main .pelicula .cards {
   justify-content: space-evenly;
 }
 main .pelicula .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
   margin: 5px 0;
 }
 main .pelicula .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 
@@ -213,7 +239,7 @@ main #microfone {
 main .microfone h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 230px;
 }
 main .microfone .cards {
   width: 90%;
@@ -222,12 +248,13 @@ main .microfone .cards {
   justify-content: space-evenly;
 }
 main .microfone .imagem {
+  width: 180px;
   background-color: var(--color03);
   border: 1px solid var(--color01);
   margin: 5px 0;
 }
 main .microfone .imagem img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 
@@ -235,13 +262,13 @@ main .microfone .imagem img {
 main #endereco {
   position: relative;
   top: 250px;
-  margin: 80px 0;
+  margin: 50px 0;
   z-index: -1;
 }
 main .endereco h3 {
   text-align: center;
   font-size: 38px;
-  line-height: 250px;
+  line-height: 200px;
   color: var(--color01);
 }
 main .endereco .mapa iframe {
@@ -276,8 +303,10 @@ main .hora span {
 }
 
 /* >>>>>>>>>>"Formulario"<<<<<<<<<< */
+
 main .form-box {
-  width: 48%;
+  width: 50%;
+  margin: 0 15px;
 }
 main .form-box h5 {
   font-size: 28px;
@@ -295,7 +324,7 @@ main .form label {
   font-size: larger;
 }
 main .inputBox input {
-  width: 170px;
+  width: 150px;
   margin: 5px 0;
 }
 main .form button {
